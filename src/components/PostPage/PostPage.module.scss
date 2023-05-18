@@ -1,0 +1,134 @@
+.post {
+  min-width: 700px;
+  width: 80vw;
+  background-color: white;
+  margin: 15px;
+  padding: 25px;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    &_info {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    &_title {
+      color: #1890ff;
+      font-size: 20px;
+      line-height: 28px;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      min-width: 100px;
+      max-width: 200px;
+    }
+
+    &_tags {
+      display: flex;
+    }
+
+    &_tag {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      line-height: 15px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      border-radius: 2px;
+      max-width: 100px;
+      height: 20px;
+      overflow: hidden;
+      margin-right: 5px;
+      padding: 1px 3px;
+    }
+
+    &_desc {
+      display: flex;
+      align-self: flex-start;
+      width: 48vw;
+      height: 45px;
+      overflow: hidden;
+      font-size: 12px;
+      line-height: 22px;
+    }
+  }
+
+  &_block {
+    max-width: 240px;
+    width: auto;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  &_data {
+    display: flex;
+    justify-content: flex-end;
+    width: 160px;
+
+    &_autor {
+      display: flex;
+      flex-direction: column;
+      margin-right: 12px;
+      margin-bottom: 20px;
+
+      &_name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.85);
+        max-width: 150px;
+        overflow: hidden;
+      }
+
+      &_date {
+        font-size: 12px;
+        line-height: 22px;
+        opacity: 0.5;
+      }
+    }
+
+    &_avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: no-repeat center url(../assets/Avatar.png);
+    }
+
+    &_btns {
+      display: flex;
+      width: 160px;
+      justify-content: space-between;
+      position: relative;
+    }
+  }
+
+  &_content {
+    font-size: 20px;
+    line-height: 28px;
+    height: auto;
+  }
+}
+
+.modal {
+  width: 240px;
+  height: 104px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 4px;
+  top: 24%;
+  right: 5%;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+
+  &_btns {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}

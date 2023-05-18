@@ -1,0 +1,122 @@
+.header {
+  background-color: white;
+  height: 8vh;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  &_login {
+    min-width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &_signIn {
+      height: 51px;
+      min-width: 109px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      line-height: 28px;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #1890ff;
+        color: white;
+        // border: 1px solid white;
+      }
+    }
+
+    &_signUp {
+      height: 51px;
+      min-width: 109px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #52c41a;
+      border-radius: 5px;
+      color: #52c41a;
+      font-size: 18px;
+      line-height: 28px;
+
+      &:hover {
+        background-color: #52c41a;
+        color: white;
+      }
+    }
+
+    &_createPost {
+      width: 112px;
+      height: 31px;
+      border: 1px solid #52c41a;
+      border-radius: 5px;
+      color: #52c41a;
+      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        background-color: #52c41a;
+        color: white;
+      }
+    }
+
+    &_user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+
+      &_name {
+        font-size: 18px;
+        line-height: 28px;
+        margin-right: 12px;
+      }
+    }
+
+    &_logOut {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.75);
+      border-radius: 5px;
+      color: rgba(0, 0, 0, 0.75);
+      width: 109px;
+      height: 51px;
+
+      &:hover {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+
+  &_logo {
+    height: 56px;
+    min-width: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.85);
+    border-radius: 5px;
+
+    &:hover {
+      border: 1px solid rgba(0, 0, 0, 0.85);
+    }
+  }
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  height: auto;
+  min-height: 90vh;
+  flex-direction: column;
+  padding: 20px;
+}

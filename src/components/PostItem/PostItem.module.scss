@@ -1,0 +1,92 @@
+.postsItem {
+  display: flex;
+  width: 70vw;
+  height: 140px;
+  background-color: white;
+  border-radius: 6px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 15px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &_header {
+      display: flex;
+      align-items: center;
+    }
+
+    &_title {
+      color: #1890ff;
+      font-size: 20px;
+      line-height: 28px;
+      max-width: 350px;
+      overflow: hidden;
+    }
+
+    &_tags {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    &_tag {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      line-height: 15px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      border-radius: 2px;
+      max-width: 100px;
+      height: 20px;
+      overflow: hidden;
+      margin-right: 5px;
+      padding: 1px 3px;
+    }
+
+    &_desc {
+      display: flex;
+      align-self: flex-start;
+      width: 48vw;
+      height: 45px;
+      overflow: hidden;
+      font-size: 12px;
+      line-height: 22px;
+    }
+  }
+  &_data {
+    display: flex;
+    justify-content: space-between;
+
+    &_autor {
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+
+      &_name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.85);
+        max-width: 150px;
+        overflow: hidden;
+      }
+
+      &_date {
+        font-size: 12px;
+        line-height: 22px;
+        opacity: 0.5;
+      }
+    }
+
+    &_avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: no-repeat center url(../assets/Avatar.png);
+    }
+  }
+}

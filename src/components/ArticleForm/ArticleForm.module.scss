@@ -1,0 +1,33 @@
+.container {
+  width: 938px;
+  height: auto;
+  background-color: #ffffff;
+  margin: 50px auto;
+  padding: 32px;
+
+  .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .tag-container {
+    display: flex;
+    gap: 20px;
+    position: relative;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 23px;
+    left: 400px;
+  }
+
+  .btn-empty {
+    position: relative;
+    bottom: 10px;
+    left: -20px;
+  }
+}
